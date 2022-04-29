@@ -1,0 +1,59 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+   "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "react-devtools": "react-devtools"
+    
+        
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ant-design/react-native": "^4.2.0",
+    "@react-native-community/cameraroll": "^4.1.2",
+    "@react-native-community/segmented-control": "^2.2.1",
+    "@react-native-community/slider": "^4.2.0",
+    "@react-native-picker/picker": "^1.16.8",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@reduxjs/toolkit": "^1.7.1",
+    "antd-mobile": "^5.0.0-rc.21",
+    "javascript-barcode-reader": "^0.6.9",
+    "react": "17.0.2",
+    "react-native": "^0.67.2",
+    "react-native-barcode-mask": "^1.2.4",
+    "react-native-camera": "^4.2.1",
+    "react-native-image-crop-picker": "^0.37.2",
+    "react-native-local-barcode-recognizer": "^0.0.2",
+    "react-native-pager-view": "^5.4.9",
+    "react-native-permissions": "^2.2.2",
+    "react-native-qrcode-scanner": "^1.5.4",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.10.0",
+    "react-native-vector-icons": "^9.0.0",
+    "react-redux": "^7.2.6",
+    "realm": "^10.11.0",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-devtools": "^4.21.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

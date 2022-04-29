@@ -1,0 +1,50 @@
+const Task = {
+  name: 'Task',
+  properties: {
+    _id: 'int',
+    name: 'string',
+    status: 'string?',
+  },
+  key: '_id',
+};
+class Projects extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {realm: null};
+  }
+  render() {
+    const test = Realm.open({
+      path: 'myrealm1',
+      schema: [Task],
+    });
+
+    // test.then(realm => {
+    //   let task1, task2;
+    //   realm.write(() => {
+    //     task1 = realm.create('Task', {
+    //       _id: 1,
+    //       name: 'Code Lazada',
+    //       status: 'Open',
+    //     });
+    //     task2 = realm.create('Task', {
+    //       _id: 2,
+    //       name: 'Code Form Login',
+    //       status: 'Close',
+    //     });
+    //     console.log(`Task1:  ${task1.name} - ${task1.status}`);
+    //     console.log(`Task2:  ${task2.name} - ${task2.status}`);
+    //   });
+    //   const tasks = realm.objects('Task');
+    //   const result = tasks.map(item => item.name);
+    //   console.log(result);
+    // });
+    // test.catch(error => {
+    //   console.log(error);
+    // });
+    return (
+      <View>
+        <Text></Text>
+      </View>
+    );
+  }
+}
